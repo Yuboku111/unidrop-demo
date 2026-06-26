@@ -1,0 +1,1 @@
+const n={serious:"真剣な交際",casual_first:"気軽に会いたい",friends_first:"友達から",undecided:"未定",life_partner:"人生のパートナー",casual:"気軽に会いたい"};function i(e){return n[e]??"その他"}const s="__declined__";function r(e){return e===s}export{s as D,n as R,r as i,i as r};

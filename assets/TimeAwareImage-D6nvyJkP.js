@@ -1,0 +1,1 @@
+import{r as s,j as o}from"./react-D2AdLFs5.js";function m(){return{resolveImage:s.useCallback(e=>e,[]),timePeriod:"morning",season:"spring"}}function u({baseSrc:r,resolvedSrc:e,...n}){const[t,a]=s.useState(e);return s.useEffect(()=>{a(e)},[e]),o.jsx("img",{...n,src:t,onError:()=>{t!==r&&a(r)}})}export{u as T,m as u};

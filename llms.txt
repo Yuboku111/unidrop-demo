@@ -1,0 +1,45 @@
+# UniDrop Tsukuba
+
+> UniDrop is a psychology-based matchmaking service exclusively for University of Tsukuba students. Instead of swiping, users complete a 66-question personality assessment, and every Tuesday at 21:00 JST, one compatible match is delivered. The service is anonymous (nickname-only), free, and built on a 5-dimensional compatibility algorithm.
+
+UniDrop was created by University of Tsukuba students who were frustrated with swipe fatigue and the pressure of revealing their identity on dating apps. Inspired by Stanford University's Marriage Pact, UniDrop uses a scientifically-grounded approach: a 66-question quiz measuring Big Five personality traits, core values, relationship goals, pace preferences, and conflict resolution styles. An algorithm then computes a multi-dimensional "fit score" and uses Blossom maximum-weight matching to pair users optimally each week.
+
+## Product Details
+
+- [Landing Page](https://unidropjp.com): Sign up, learn how it works, read FAQs
+- [About](https://unidropjp.com/about): Our philosophy and founding story
+- [Algorithm](https://unidropjp.com/about/algorithm): How the 5-dimension compatibility scoring works
+- [Privacy Policy](https://unidropjp.com/legal/privacy): How we handle user data
+- [Terms of Service](https://unidropjp.com/legal/terms): Usage terms and conditions
+
+## How It Works
+
+1. **Sign up** with a University of Tsukuba student email (@u.tsukuba.ac.jp or @s.tsukuba.ac.jp). Age 18+ required.
+2. **Complete a 66-question quiz** covering personality traits, values, relationship goals, pace, and conflict style. Takes about 15 minutes.
+3. **Opt in weekly**. Every Tuesday at 21:00 JST, the algorithm runs and delivers one match. Skip any week you're busy.
+4. **Chat anonymously** via in-app messaging. No real names or contact info shared until you choose.
+
+## Key Features
+
+- Psychology-based matching: 5-dimension fit score (Big Five, values, goals, pace, conflict)
+- Weekly drops: One curated match per week, no endless swiping
+- Anonymous: Nickname-only profiles, no photos required
+- University-verified: Student email authentication ensures a trusted community
+- In-app chat: 7-day chat window with typing indicators and read receipts
+- Block & report: Safety features for a respectful environment
+- Free: Core features available at no cost
+
+## Technical Overview
+
+- Frontend: React + TypeScript + Vite + Tailwind CSS
+- Backend: Node.js + Express + Socket.io + PostgreSQL (Drizzle ORM)
+- Matching: Edmonds' Blossom algorithm for maximum-weight matching
+- Auth: Email OTP with JWT tokens
+
+## Company
+
+- Operator: Youest, Inc.
+- Contact: info@youest.jp
+- Website: https://unidropjp.com
+- Target: University of Tsukuba students (18+)
+- Language: Japanese (primary)

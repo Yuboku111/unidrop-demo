@@ -1,0 +1,1 @@
+const e="unidrop_invite_code",n=/^[0-9a-zA-Z]{8}$/;function o(t){return typeof t=="string"&&n.test(t)}function r(t){if(o(t))try{localStorage.setItem(e,t)}catch{}}function c(){try{const t=localStorage.getItem(e);return o(t)?t:null}catch{return null}}function a(){try{localStorage.removeItem(e)}catch{}}export{a as c,c as g,r as s};

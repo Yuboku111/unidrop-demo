@@ -1,0 +1,1 @@
+import{r as e,j as o}from"./react-D2AdLFs5.js";import{p as a}from"./index-BZKToNRr.js";import{s as i}from"./inviteCode-KfmpuNvD.js";import"./socket-1XyU-0ge.js";function p({code:t}){const[r,s]=e.useState(!1);return e.useEffect(()=>{t&&i(t),s(!0)},[t]),r?o.jsx(a,{to:"/"}):null}export{p as default};
